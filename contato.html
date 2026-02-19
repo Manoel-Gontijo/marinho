@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <title>Contato • Marinho Aluguel de Impressoras</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="icon" href="assets/img/logomarinho.jpg">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg border-bottom sticky-top">
+  <div class="container py-2">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+      <img src="assets/img/logomarinho.jpg" alt="Marinho Aluguel de Impressoras" style="height:42px;width:auto;border-radius:10px">
+      </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Abrir menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+        <li class="nav-item"><a class="nav-link" data-nav href="index.html">Início</a></li>
+        <li class="nav-item"><a class="nav-link" data-nav href="servicos.html">Serviços</a></li>
+        <li class="nav-item"><a class="nav-link" data-nav href="equipamentos.html">Impressoras</a></li>
+        <li class="nav-item"><a class="nav-link" data-nav href="suprimentos.html">Peças & Suprimentos</a></li>
+        <li class="nav-item"><a class="nav-link" data-nav href="quem-somos.html">Quem somos</a></li>
+        <li class="nav-item"><a class="nav-link" data-nav href="contato.html">Contato</a></li>
+        </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="py-5 hero">
+  <div class="container py-4">
+    <h1 class="section-title display-6 mb-2">Contato</h1>
+    <p class="muted mb-0">Fale com a gente para orçamento de venda, locação ou manutenção.</p>
+  </div>
+</header>
+
+<main class="py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <div class="p-4 rounded-4 border bg-white">
+          <div class="fw-bold mb-2">Canais</div>
+          <div class="small text-secondary">
+            <div><b>Cidade:</b> Divinópolis - MG</div>
+            <div class="mt-1"><b>WhatsApp:</b> <a href="https://wa.me/5537988360151" target="_blank" rel="noopener">5537988360151</a></div>
+            <div class="mt-1"><b>E-mail:</b> <a href="mailto:contato@seudominio.com.br">contato@seudominio.com.br</a></div>
+          </div>
+
+          <hr>
+          <div class="fw-bold mb-2">Mensagem rápida</div>
+          <form onsubmit="event.preventDefault(); alert('Aqui podemos integrar envio por WhatsApp ou e-mail (Formspree).');">
+            <div class="row g-2">
+              <div class="col-md-6">
+                <label class="form-label small">Nome</label>
+                <input class="form-control" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label small">Telefone</label>
+                <input class="form-control" required>
+              </div>
+              <div class="col-12">
+                <label class="form-label small">Mensagem</label>
+                <textarea class="form-control" rows="4" required></textarea>
+              </div>
+              <div class="col-12 d-grid">
+                <button class="btn btn-brand" type="submit">Enviar</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="p-4 rounded-4 border h-100">
+          <div class="fw-bold mb-2">Mapa</div>
+          <p class="small text-secondary">Cole aqui o embed do Google Maps da sua empresa.</p>
+          <div class="ratio ratio-16x9 rounded-4 overflow-hidden border bg-light">
+            <iframe title="Mapa" src="about:blank"></iframe>
+          </div>
+
+          <div class="mt-3 small text-secondary">
+            <b>Dica:</b> também posso colocar um botão “Como chegar” abrindo rota no Google Maps.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="footer mt-5">
+  <div class="container py-5">
+    <div class="row g-4">
+      <div class="col-lg-5">
+        <div class="d-flex align-items-center gap-2 mb-2">
+          <img src="assets/img/logomarinho.jpg" alt="Marinho Aluguel de Impressoras" style="height:46px;width:auto;border-radius:12px">
+          <div>
+            <div class="fw-bold">Marinho Aluguel de Impressoras</div>
+            <div class="small muted text-white-50">Venda, locação e manutenção de impressoras</div>
+          </div>
+        </div>
+        <p class="mb-0 text-white-50">Soluções completas para empresas: outsourcing de impressão, manutenção, peças e suprimentos.</p>
+      </div>
+
+      <div class="col-6 col-lg-3">
+        <div class="fw-bold mb-2">Navegação</div>
+        <ul class="list-unstyled small m-0">
+          <li class="mb-1"><a href="index.html">Início</a></li>
+          <li class="mb-1"><a href="servicos.html">Serviços</a></li>
+          <li class="mb-1"><a href="equipamentos.html">Impressoras</a></li>
+          <li class="mb-1"><a href="suprimentos.html">Peças & Suprimentos</a></li>
+          <li class="mb-1"><a href="contato.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-lg-4">
+        <div class="fw-bold mb-2">Contato</div>
+        <div class="small text-white-50">
+          <div>Divinópolis - MG</div>
+          <div class="mt-1">WhatsApp: <a href="https://wa.me/5537988360151" target="_blank" rel="noopener">5537988360151</a></div>
+          <div class="mt-1">E-mail: <a href="mailto:contato@seudominio.com.br">contato@seudominio.com.br</a></div>
+        </div>
+        <div class="mt-3 d-flex gap-2">
+          <a class="btn btn-outline-light btn-sm" href="https://wa.me/5537988360151" target="_blank" rel="noopener">WhatsApp</a>
+          <a class="btn btn-outline-light btn-sm" href="#" onclick="alert('Coloque aqui o link do Instagram.');return false;">Instagram</a>
+        </div>
+      </div>
+    </div>
+
+    <hr class="border-white border-opacity-10 my-4">
+    <div class="footer-bottom small text-white-50">
+      <div>© Marinho Aluguel de Impressoras — 2026</div>
+      <div></div>
+    </div>
+  </div>
+</footer>
+
+<a class="floating-whats" href="https://wa.me/5537988360151" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
